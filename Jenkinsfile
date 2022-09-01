@@ -24,7 +24,7 @@ pipeline {
         stage('Shell') {
           steps {
             echo 'Masking complete'
-            sh 'curl --location --request GET 'https://partner.testinsights.io/api/apikey/e2Ep6tf9uAnutPyp2kfONK63N/job/137094'
+            sh 'curl --location --request GET 'https://partner.testinsights.io/api/apikey/e2Ep6tf9uAnutPyp2kfONK63N/job/137094''
           }
         }
 
