@@ -23,7 +23,6 @@ pipeline {
 
         stage('Shell') {
           steps {
-            sh 'curl --location --request GET \'https://partner.testinsights.io/api/apikey/e2Ep6tf9uAnutPyp2kfONK63N/job/137123\''
             echo 'Masking complete'
           }
         }
